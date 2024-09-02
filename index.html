@@ -54,18 +54,23 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--main-->
     <main>
-      <section class="business section">
+      <section class="business section hidden">
         <div class="container container-business">
           <h1 class="business-title">Effective Solutions for Your Business</h1>
           <button class="business-btn" type="button">Order Service</button>
         </div>
       </section>
 
-      <section class="advantages section">
+      <section class="advantages section hidden">
         <div class="container container-advantages">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list">
@@ -121,7 +126,7 @@
         </div>
       </section>
 
-      <section class="team section">
+      <section class="team section hidden">
         <div class="container container-team">
           <h2 class="ourteam-title">Our Team</h2>
           <ul class="ourteam-list">
@@ -297,7 +302,7 @@
         </div>
       </section>
 
-      <section class="portfolio section">
+      <section class="portfolio section hidden">
         <div class="container container-portfolio">
           <h2 class="title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -421,7 +426,7 @@
       </section>
     </main>
     <!-- #region footer-->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-div">
         <div class="container-logo">
           <a class="logo footer-logo" href="./index.html"
@@ -487,7 +492,7 @@
       </div>
     </footer>
     <!-- endregion footer -->
-    <div class="backdrop is-open">
+    <div class="backdrop hidden">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-svg" width="8" height="8">
